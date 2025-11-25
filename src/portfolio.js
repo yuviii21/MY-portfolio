@@ -1,21 +1,21 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rjshkhr.github.io/cleanfolio',
-  title: 'JS.',
+  homepage: '',
+  title: 'uv.',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
-  name: 'John Smith',
-  role: 'Front End Engineer',
+  name: 'G Yuvaraj',
+  role: '',
   picture: 'https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png',
 
   description:
-    'Adipisicing sit fugit ullam unde aliquid sequi Facilis soluta facilis perspiciatis corporis nulla aspernatur. Autem eligendi rerum delectus modi quisquam? Illo ut quasi nemo ipsa cumque perspiciatis! Maiores minima consectetur.',
-  resume: 'https://example.com',
+    'Passionate Computer Science student skilled in software development, AI, and data-driven solutions with hands-on project experience in real-world applications.',
+  resume: 'https://drive.google.com/file/d/1k5CnkSF46QPoR3_sLAQTk9SHlG13pSmN/view?usp=sharing',
   social: {
-    linkedin: 'https://linkedin.com',
-    github: 'https://github.com',
+    linkedin: 'https://linkedin.com/in/g-yuvaraj-42b1b634a',
+    github: 'https://github.com/yuviii21',
   },
 }
 
@@ -23,30 +23,30 @@ const projects = [
   // projects can be added an removed
   // if there are no projects, Projects section won't show up
   {
-    name: 'Project 1',
+    name: 'Autosteer',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-    image: 'cleanfolio.png',
+      'Autonomous Vehicle Steering Prediction System Developed a computer vision application leveraging  Convolutional Neural Networks (CNNs) to predict real-time steering angles from road video input.',
+    stack: ['Python'],
+    sourceCode: 'https://github.com/yuviii21/AutoSteer.git',
+    livePreview: '',
+    
   },
   {
-    name: 'Project 2',
+    name: 'PlugEase EV Charging Access Mobile Application',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
-    image: 'https://github.githubassets.com/assets/GitHub-Logo-ee398b662d42.png',
+      'Developed a React Native mobile application enabling users to locate, book, and manage home EV charging points.',
+    stack: ['JavaScript', 'TypeScript', 'kotlin', 'React Native'],
+    sourceCode: 'https://github.com/yuviii21/PlugEase.git',
+    livePreview: '',
+    
   },
   {
     name: 'Project 3',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Deep learning-based solution designed to simulate the experience of trying on clothes virtually.',
+    stack: ['Python', 'HTML', 'Jupyter Notebook'],
+    sourceCode: 'https://github.com/yuviii21/VITON.git',
+    livePreview: '',
   },
 ]
 
@@ -57,19 +57,18 @@ const skills = [
   'CSS',
   'JavaScript',
   'TypeScript',
-  'React',
-  'Redux',
-  'SASS',
-  'Material UI',
+  'Python',
+  'SQL',
+  'mongoDB',
+  'pandas',
   'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+  'numPy',
+  
 ]
 
 const contact = {
   // email is optional - if left empty Contact section won't show up
-  email: 'johnsmith@mail.com',
+  email: 'yuvrazz21@gmail.com',
 }
 
 export { header, about, projects, skills, contact }
