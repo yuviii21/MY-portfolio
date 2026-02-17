@@ -1,18 +1,18 @@
 const header = {
   // all the properties are optional - can be left empty or deleted
   homepage: '',
-  title: 'uv.',
+  title: '',
 }
 
 const about = {
   // all the properties are optional - can be left empty or deleted
   name: 'G Yuvaraj',
-  role: '',
+  role: 'Python full stack developer',
   picture: 'https://github.githubassets.com/assets/GitHub-Mark-ea2971cee799.png',
 
   description:
     'Passionate Computer Science student skilled in software development, AI, and data-driven solutions with hands-on project experience in real-world applications.',
-  resume: 'https://drive.google.com/file/d/1k5CnkSF46QPoR3_sLAQTk9SHlG13pSmN/view?usp=sharing',
+  resume: 'https://drive.google.com/file/d/1Q---hI0mjZwTbcAe73DrPOrsQO_S5UZ4/view?usp=sharing',
   social: {
     linkedin: 'https://linkedin.com/in/g-yuvaraj-42b1b634a',
     github: 'https://github.com/yuviii21',
@@ -41,11 +41,11 @@ const projects = [
     
   },
   {
-    name: 'Project 3',
+    name: 'Gesture Voice Board',
     description:
-      'Deep learning-based solution designed to simulate the experience of trying on clothes virtually.',
-    stack: ['Python', 'HTML', 'Jupyter Notebook'],
-    sourceCode: 'https://github.com/yuviii21/VITON.git',
+      'Designed and developed a browser-based multimodal interaction system enabling users to control drawing and note-taking using hand gestures and voice commands.',
+    stack: ['JavaScript', 'MediaPipe', 'Web Speech API', 'Computer Vision'],
+    sourceCode: 'https://github.com/yuviii21/Gesture-Voice-Board.git',
     livePreview: '',
   },
 ]
@@ -53,16 +53,23 @@ const projects = [
 const skills = [
   // skills can be added or removed
   // if there are no skills, Skills section won't show up
-  'HTML',
-  'CSS',
-  'JavaScript',
-  'TypeScript',
   'Python',
+  'c',
+  'React.js',
+  'React Native',
+  'JavaScript',
+  'Tailwind CSS',
+  'HTML5',
+  'CSS3',
+  'REST APIs',
   'SQL',
   'mongoDB',
-  'pandas',
+  'Firebases',
   'Git',
-  'numPy',
+  'Postman',
+  'MySQL',
+  'Netlify',
+  'Vercel'
   
 ]
 
